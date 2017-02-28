@@ -9,6 +9,7 @@ Mailboxlayer
 0. Go to [Mailboxlayer website](https://mailboxlayer.com) 
 1. Log in or create a new account
 2. Go to [Dashboard page](https://mailboxlayer.com/dashboard) to get your API key
+
 ## Mailboxlayer.autocompleteAddress
 Verify the provided address
 
