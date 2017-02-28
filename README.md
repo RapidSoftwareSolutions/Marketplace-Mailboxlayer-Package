@@ -15,7 +15,7 @@ Verify the provided address
 
 | Field      | Type       | Description
 |------------|------------|----------
-| apiKey     | credentials| Api key obtained from Streetlayer
+| apiKey     | credentials| Api key obtained from Mailboxlayer
 | text       | String     | The address to be autocompleted in freeform text.
 | countryCode| String     | The country in which the API should search for the given address.
 | postalCode | String     | Specifying this parameter will restrict autocomplete suggestions to the postal code provided.

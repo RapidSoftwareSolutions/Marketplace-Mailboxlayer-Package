@@ -21,7 +21,7 @@
         {
           "name": "apiKey",
           "type": "credentials",
-          "info": "Api key obtained from Streetlayer",
+          "info": "Api key obtained from Mailboxlayer",
           "required": true
         },
         {
