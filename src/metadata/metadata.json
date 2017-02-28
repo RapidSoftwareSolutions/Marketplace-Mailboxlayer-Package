@@ -1,0 +1,54 @@
+{
+  "package": "Mailboxlayer",
+  "tagline": "Mailboxlayer API",
+  "description": "Mailboxlayer",
+  "image": "http:\/\/logo.clearbit.com\/mailboxlayer.com",
+  "repo": "https:\/\/github.com\/RapidSoftwareSolutions\/Marketplace-Mailboxlayer-Package",
+  "keywords": [
+  ],
+  "accounts": {
+    "domain": "mailboxlayer.com",
+    "credentials": [
+      "apiKey"
+    ]
+  },
+  "blocks": [
+
+    {
+      "name": "autocompleteAddress",
+      "description": "Verify the provided address",
+      "args": [
+        {
+          "name": "apiKey",
+          "type": "credentials",
+          "info": "Api key obtained from Streetlayer",
+          "required": true
+        },
+        {
+          "name": "text",
+          "type": "String",
+          "info": "The address to be autocompleted in freeform text.",
+          "required": true
+        },
+        {
+          "name": "countryCode",
+          "type": "String",
+          "info": "The country in which the API should search for the given address.",
+          "required": true
+        },
+        {
+          "name": "postalCode",
+          "type": "String",
+          "info": "Specifying this parameter will restrict autocomplete suggestions to the postal code provided.",
+          "required": false
+        }
+      ],
+      "callbacks": [
+        {
+          "name": "error",
+          "info": "error"
+        }
+      ]
+    }
+  ]
+}
