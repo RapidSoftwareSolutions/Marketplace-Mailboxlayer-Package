@@ -3,7 +3,7 @@
 namespace Test\Functional;
 
 require_once(__DIR__ . '/../../src/Models/checkRequest.php');
-class StreetlayerTest extends BaseTestCase {
+class MailboxlayerTest extends BaseTestCase {
 
     public function testListMetrics() {
 
