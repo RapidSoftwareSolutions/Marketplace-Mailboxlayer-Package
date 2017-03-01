@@ -25,22 +25,10 @@
           "required": true
         },
         {
-          "name": "text",
+          "name": "email",
           "type": "String",
-          "info": "The address to be autocompleted in freeform text.",
+          "info": "The email to verify",
           "required": true
-        },
-        {
-          "name": "countryCode",
-          "type": "String",
-          "info": "The country in which the API should search for the given address.",
-          "required": true
-        },
-        {
-          "name": "postalCode",
-          "type": "String",
-          "info": "Specifying this parameter will restrict autocomplete suggestions to the postal code provided.",
-          "required": false
         }
       ],
       "callbacks": [

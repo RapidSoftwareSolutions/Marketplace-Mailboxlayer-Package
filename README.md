@@ -1,4 +1,4 @@
-[![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/MailboxLayer/functions?utm_source=RapidAPIGitHub_MailboxlayerFunctions&utm_medium=button&utm_content=RapidAPI_GitHub) 
+[![](https://scdn.rapidapi.com/RapidAPI_banner.png)](https://rapidapi.com/package/Mailboxlayer/functions?utm_source=RapidAPIGitHub_MailboxlayerFunctions&utm_medium=button&utm_content=RapidAPI_GitHub)
 
 # Mailboxlayer Package
 Mailboxlayer
@@ -13,10 +13,8 @@ Mailboxlayer
 ## Mailboxlayer.autocompleteAddress
 Verify the provided address
 
-| Field      | Type       | Description
-|------------|------------|----------
-| apiKey     | credentials| Api key obtained from Mailboxlayer
-| text       | String     | The address to be autocompleted in freeform text.
-| countryCode| String     | The country in which the API should search for the given address.
-| postalCode | String     | Specifying this parameter will restrict autocomplete suggestions to the postal code provided.
+| Field | Type       | Description
+|-------|------------|----------
+| apiKey| credentials| Api key obtained from Mailboxlayer
+| email | String     | The email to verify
 
