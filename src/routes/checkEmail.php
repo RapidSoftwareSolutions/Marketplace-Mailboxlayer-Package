@@ -30,7 +30,7 @@ $app->post('/api/Mailboxlayer/checkEmail', function ($request, $response, $args)
         $rawBody = json_decode($resp->getBody());
 
         $all_data[] = $rawBody;
-        if ($response->getStatusCode() == '200') {
+        if ($response->getStatusCode() == '200' && $rawBody->success) {
             $result['callback'] = 'success';
             $result['contextWrites']['to'] = is_array($all_data) ? $all_data : json_decode($all_data);
         } else {
