@@ -15,7 +15,7 @@
   "blocks": [
 
     {
-      "name": "autocompleteAddress",
+      "name": "checkEmail",
       "description": "Verify the provided address",
       "args": [
         {
